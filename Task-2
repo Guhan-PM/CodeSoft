@@ -1,0 +1,799 @@
+<!--HomePage-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogging<</title>
+    <link rel="stylesheet" href="blogstyle.css">
+</head>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-style: italic;
+}
+body{
+    font-family: montserrat;
+    background-color: #fcf9f9;
+}
+nav{
+    background: #0d0d0e;
+    height:165px;
+    width: 100%;
+}
+  label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+.nav-links{
+    justify-content: center;
+    margin-left:35%;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #fcf9f9;
+    float: inline-start;
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    padding:19px;
+
+
+}
+a:hover{
+ cursor: pointer;
+ text-decoration: underline;
+ color: rebeccapurple;
+ border-radius: 7px;
+}
+#logo{
+    background-image: linear-gradient(in hsl longer hue 45deg, violet, indigo, green, blue, yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-style: oblique;
+    font-weight: bolder;
+    padding-left: 45%;
+}
+hr{
+    color: #0b0b0b;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.right-flex{
+    padding-left:50%;
+    margin-top: -29rem;
+}
+.right-flex h1{
+    font-size: 3rem;
+    font-weight:80;
+    line-height: 1.2;
+}
+.right-flex h1 span{
+    color: rebeccapurple;
+}
+#name{
+    color:rebeccapurple;
+    font-size:1.5rem;
+}
+.right-flex p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    width:70%;
+}
+.left-flex img{
+    width:28rem;
+    height:30rem;
+    border: 2px solid black;
+    border-radius:50%;
+}
+.left-flex{
+    padding: 5px;
+    padding-left:100px;
+}
+.right-flex h2{
+    padding-top: 3px;
+}
+#cv{
+    height:40px;
+    width:100px;
+    background-color:  rebeccapurple;
+    color: #0d0d0e;
+    font-weight: 100;
+    border-radius: 5px;
+}
+#cv:hover{
+    cursor: pointer;
+    background-color: #0d0d0e;
+    color: #fcf9f9;
+    transition: 1s;
+}
+#lin{
+    margin-top: -18rem;
+    padding-left:40%;
+}
+#twi{
+    padding-left: 40%;
+}
+#git{
+    padding-left: 40%;
+}
+</style>
+<body>
+    <nav>
+    <div class="logo">
+    <label class="logo" id="logo">GUHAN PM</label>
+    </div>
+    <hr>
+    <br>
+    <div class="nav-links">
+    <ul class="links">
+        <li><a href="blog.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About Me</a></li>
+        <li><a href="skils.html" class="nav-link">Skills</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>   
+      </ul>
+    </div>
+  </nav>
+  <br>
+    <div class="left-flex">
+    <img src="C:\Users\guhan\Downloads\InShot_20230621_152817484.jpg" alt="Profile">
+  </div>
+    <br>
+    <div class="right-flex">
+      <h1>Hi There,<br><span>I,m Guhan</span></h1>
+      <h2>[I'm Into web ]</h2>
+      <br>
+      <p>
+        Welcome to my portfolio! I'm Guhan, a student. Explore my projects that blend creativity with technical proficiency. Let's collaborate on turning your ideas into impactful solutions. Connect with me and let's create something extraordinary together!I'm the one who intersted in designing and developing a website and also have a ability to solving a problem in a optimized way!.
+      </p>
+      <button type="menu" id="cv">Resume</button>
+    </div>
+
+    <div class="social">
+      <div id="lin">
+      <a href=" "><img src="C:\Users\guhan\Downloads\5282542_linkedin_network_social network_linkedin logo_icon.svg" id="l" width="40px"></a>
+    </div>
+    <br>
+    <div id="twi">
+      <a href=" "><img src="C:\Users\guhan\Downloads\5282551_tweet_twitter_twitter logo_icon.svg" id="t" width="40px"></a>
+    </div> 
+    <br>
+    <div id="git">
+      <a href=" "><img src="C:\Users\guhan\Downloads\4747499_github_icon.svg" id="g" width="40px"></a>
+    </div>
+    </div>
+  </body>
+</html>
+</body>
+</html>
+
+<!--about page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            font-style: italic;
+            margin: 0%;
+        }
+        .left{
+            background-color: rgb(12, 12, 12);
+            color: aliceblue;
+            height: 130px;
+            text-align: center;
+            letter-spacing: 1.5px;
+        }
+        .left h1{
+            margin-top:22px;
+        }
+        .left span{
+            color: blueviolet;
+            letter-spacing: 3.5px;
+        }
+        hr{
+            width:38.5%;
+            margin-left:-5%;
+        }
+        .social{
+            display: flex;
+            margin-left: 40%;
+        }
+        #connect{
+            margin-left: 40%;
+            font-size:13px;
+        }
+        .social img{
+            padding:5px;
+        }
+        .back img{
+                height: 70px;
+                width: 70px;
+            }
+            .back{
+                margin-left: 30%;
+                margin-top: -95px;
+            }
+        .left h1{
+            text-align: center;
+        }
+        .right1{
+            margin-left: 40%;
+            margin-top: -28.5rem;
+            letter-spacing: 2px;
+        }
+        .right1 p{
+            width:60%;
+            padding:7px;
+            letter-spacing:3px;
+        }
+        .right1 span{
+            color: blueviolet;
+        }
+        #a{
+            padding-top:20%;
+            padding-left:3%;
+            letter-spacing: 2px;
+        }
+        #a span{
+            color: blueviolet;
+        }
+        left h1:hover{
+            text-decoration: underline;
+            color: gray;
+        }
+        .vr{
+        border-left: 3px solid gray;
+        height:450px;
+        margin-left:35%;
+        margin-top: -18.5rem;
+    }
+    .i img{
+        margin-top: -40%;
+        margin-left: 80%;
+    }
+    </style>
+    <body>
+        <div class="left">
+            <br>
+            <h1>About Me</span></h1>
+        </div>
+        <div class="back">
+            <a href="blog.html"><img src="C:\Users\guhan\Downloads\arrow.png" alt="back"></a>
+        </div>
+        <br>
+        <div class="r">
+            <h1 id="a">Let Me Share A Bit<br> <span>About Me</span></h1>
+        </div>
+        <div class="vr">
+
+        </div>
+        <div class="semi">
+        </div>
+        <div class="right1">
+            <h1>Myself<br><span>Guhan</span></h1>
+            <br>
+            <p>Energetic and diligent student pursuing a BE with a passion for IT. Adept at combining strong academic achievements with hands-on experiences, including internships and courseworks. Possesses excellent communication and teamwork skills developed through active involvement in academic works. Eager to apply classroom learning to real-world challenges and contribute to Industry. Demonstrated ability to quickly grasp new concepts and technologies. Seeking opportunities to leverage my skills and enthusiasm to make a positive impact as I embark on a dynamic career journey.
+
+            </p>
+        </div>
+        <br>
+        <div id="connect">
+            <h1>Wanna Know more About Me?</h1>
+        </div>
+        <br>
+            <div class="social">
+                <div id="lin">
+                <a href=" "><img src="C:\Users\guhan\Downloads\5282542_linkedin_network_social network_linkedin logo_icon.svg" id="l" width="40px"></a>
+              </div>
+              <br>
+              <div id="twi">
+                <a href=" "><img src="C:\Users\guhan\Downloads\5282551_tweet_twitter_twitter logo_icon.svg" id="t" width="40px"></a>
+              </div> 
+              <br>
+              <div id="git">
+                <a href=" "><img src="C:\Users\guhan\Downloads\4747499_github_icon.svg" id="g" width="40px"></a>
+            </div>
+           </div>
+        </div> 
+        <div class="i">
+            <img src="C:\Users\guhan\Downloads\images.jpg" width="25%" height="100%">
+        </div>
+    </body>
+    </html>
+
+</body>
+</html>
+
+<!--skill Page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-style: italic;
+        }
+        .skills{
+            margin-top:5%;
+        }
+        .progress h1{
+            letter-spacing: 1px;
+            font-size: 20px;
+        }
+        .bar{
+            width: 800px;
+            height: 8px;
+            margin-top: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgb(162, 161, 162);
+        }
+        .percent{
+            display: block;
+            height: 100%;
+            background-color: rgb(7, 7, 7);
+            border-radius: 5px;
+            animation: progress 2500ms ease-in 1;
+        }
+        .c{
+            width: 80%;
+        }
+        .java{
+            width:65%;
+        }
+        .html{
+            width: 100%;
+        }
+        .css{
+            width:80%;
+        }
+        .js{
+            width:50%;
+        }
+        @keyframes progress{
+            from{
+                width: 0%;
+            }
+        }
+        #name h1{
+            font-size:35px;
+            font-weight: 300;
+            text-align: center;
+            color: white;
+        }
+        #name span{
+            color:purple;
+            font-weight: bold;
+            letter-spacing:2px;
+        }
+        #name{
+            background-color: rgb(9, 9, 9);
+        }
+        hr{
+            width:70%;
+            height:3px;
+            border: 2px solid black;
+            margin-left:15%;
+        }
+        .vl{
+            border-left: 3px solid gray;
+            height: 500px;
+            margin-left:58%;
+            margin-top: -26rem;
+        }
+        .coding{
+            background-image: linear-gradient(in hsl longer hue 45deg, violet, indigo, green, blue, yellow, orange, red);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            letter-spacing: 2px;
+            margin-left: 25%;
+            text-decoration:underline;
+        }
+        .design{
+            background-image: linear-gradient(in hsl longer hue 45deg, violet, indigo, green, blue, yellow, orange, red);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 2px;
+            letter-spacing: 2px;
+            margin-left: 75%;
+            margin-top: -2rem;
+            text-decoration:underline;
+        }
+        .back img{
+            height: 70px;
+            width: 70px;
+        }
+        .back{
+            margin-left: 30%;
+            margin-top: -90px;
+        }
+        .tools{
+            margin-left: 60%;
+            margin-top:-39%;
+            display: flex;
+            flex-direction: row;
+        }
+        #ui{
+            margin-top: 25%;
+            margin-right:60px;
+        }
+        #ux{
+            margin-top: 25%;
+            margin-right:60px;
+        }
+        #ps{
+            margin-top: 25%;
+            margin-right:60px;
+        }
+        #ai{
+            margin-top: 25%;
+            margin-right:60px;
+        }
+        #figma{
+            margin-top: 25%;
+            margin-right:60px;
+        }
+        #name h2{
+            text-align: center;
+            font-size:25px;
+            font-weight: 500;
+        }
+        #a1{
+            text-align: center;
+            font-size: 20px;
+            color: azure;
+            letter-spacing:2px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <div id="name">
+        <br>
+        <h1>Skill <br><span>expertise</span><br></h1><br>
+        <p id="a1">"Skills are the compass that navigates the terrain of opportunity"</p>
+        <div class="back">
+            <a href="about.html"><img src="C:\Users\guhan\Downloads\arrow.png" alt="back"></a>
+        </div>
+        <br>
+        <br>
+        <hr>
+    </div>
+    <br>
+    <div class="coding">
+        <h1>Coding</h1>
+    </div>
+    <div class="design">
+        <h1>Desining</h1>
+    </div>
+    <div class="skills">
+        <div class="progress">
+            <h1>C</h1>
+            <div class="bar">
+                <span class="percent c"></span>
+            </div>
+
+        </div>
+        <br><br>
+        <div class="progress">
+            <h1>Java</h1>
+            <div class="bar">
+                <span class="percent java"></span>
+            </div>
+        </div>
+        <br><br>
+        <div class="progress">
+            <h1>HTML</h1>
+            <div class="bar">
+                <span class="percent html"></span>
+            </div>
+        </div>
+        <br><br>
+        <div class="progress">
+            <h1>CSS</h1>
+            <div class="bar">
+                <span class="percent css"></span>
+            </div>
+        </div>
+        <br><br>
+        <div class="progress">
+            <h1>Java Script</h1>
+            <div class="bar">
+                <span class="percent js"></span>
+            </div>
+        </div>
+    </div>
+    <div class="vl"></div>
+    <div class="tools">
+      <div id="ui">
+        <img src="C:\Users\guhan\Downloads\mobile-ui-icon.webp"  width="60px" height="60px">
+      </div>
+      <br>
+      <div id="ux">
+        <img src="C:\Users\guhan\Downloads\mobile-ux-icon.webp" width="60px" height="60px">
+      </div>
+      <br>
+      <div id="ps">
+        <img src="C:\Users\guhan\Downloads\photoshop.svg"  width="60px" height="60px">
+      </div>
+      <br>
+      <div id="ai">
+        <img src="C:\Users\guhan\Downloads\adobe-illustrator.svg"  width="60px" height="60px">
+      </div>
+      <br>
+      <div id="figma">
+        <img src="C:\Users\guhan\Downloads\figma.svg"  width="60px" height="60px">
+      </div>
+      <br>
+      </div>
+    </div>
+</body>
+</html>
+
+<!--Contact Page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<style>
+    *{
+        font-style: italic;
+        margin: 0%;
+    }
+    .right .q{
+        color:black;
+        font-size: 13px;
+    }
+    .right .ans{
+        font-size:10px;
+        color:gray;
+    }
+    .left{
+        background-color: rgb(12, 12, 12);
+        color: aliceblue;
+        height: 130px;
+        text-align: center;
+        letter-spacing: 1.5px;
+    }
+    .left span{
+        color: blueviolet;
+        letter-spacing: 3.5px;
+    }
+    hr{
+        width:38.5%;
+        margin-left:-5%;
+    }
+    .vl{
+        border-left: 3px solid gray;
+        height:600px;
+        margin-left:35%;
+        margin-top: -35.5rem;
+    }
+    .semi{
+        height:600px;
+        width: 305px;
+        border-radius:12rem 0 0 12rem;
+        background-color: blueviolet;
+    }
+    .semi{
+        margin-left:79.5%;
+        margin-top:-37.5rem;
+    }
+    #location{
+        margin-left: 13%;
+        margin-top: -3.5rem;
+    }
+    form{
+        margin-left: 40%;
+        margin-top: -40%;
+    }
+    .right-side .input-box input{
+        width: 50%;
+        height: 35px;
+        border-radius: 3px;
+        border: 1px solid black;
+        background-color:white;
+        color:black;
+    }
+    .right-side textarea{
+        width: 50%;
+        height:80px;
+        border-radius: 3px;
+        border: 1px solid black;
+        background-color:white;
+        color:black;
+    }
+    .right-side button{
+        width: 51%;
+        height: 50px;
+        background-color: blueviolet;
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        border: 1px solid black;
+
+    }
+    .right-side button:hover{
+        cursor: pointer;
+        background-color: black;
+        transition: 2s;
+    }
+    .social{
+        display:grid;
+        margin-left: 40%;
+    }
+    #connect{
+        margin-left: 40%;
+        font-size:13px;
+    }
+    .social img{
+        padding:2px;
+    }
+    .socialname{
+        display:grid;
+        margin-left:45%;
+        margin-top: -12.5rem;
+    }
+    .socialname a{
+        margin-top:30px;
+        text-decoration: none;
+        font-size:18px;
+    }
+    .socialname a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    .back img{
+            height: 70px;
+            width: 70px;
+        }
+        .back{
+            margin-left: 30%;
+            margin-top: -95px;
+        }
+</style>
+<body>
+    <div class="left">
+        <br>
+        <h1>Let's Make A <br><span>Talk Together!</span></h1>
+    </div>
+    <div class="back">
+        <a href="skils.html"><img src="C:\Users\guhan\Downloads\arrow.png" alt="back"></a>
+    </div>
+    <br>
+    <div class="right">
+    <ul>
+    <div class="q">
+        <li><h1>Name</h1></li>
+    </div><br>
+    <div class="ans">
+        <h1>Guhan PM</h1>
+    </div>
+    <br>
+    <hr>
+
+    <div class="q">
+        <li><h1>Email</h1></li>
+    </div><br>
+    <div class="ans">
+        <h1>guhanpm@gmail.com</h1>
+    </div>
+    <br>
+    <hr>
+
+    <div class="q">
+        <li><h1>Contact Number</h1></li>
+    </div><br>
+    <div class="ans">
+        <h1>9788976534</h1>
+    </div>
+    <br>
+    <hr>
+    <div class="q">
+        <li><h1>Location</h1></li>
+    </div><br>
+    <div class="ans">
+        <h1>Salem,Tamilnadu</h1>
+        <div id="location">
+        <img src="C:\Users\guhan\Downloads\Salem_in_Tamil_Nadu_(India).svg.png" width="150px" height="150px">
+    </div>
+    </div>
+    <br>
+    <hr>
+    <div class="q">
+        <li><h1>Something Else?</h1></li>
+    </div><br>
+    <div class="ans">
+        <div id="s">
+        <img src="C:\Users\guhanDownloads\images (1).png" height="60px" width="60px">
+    </div>
+    </div>
+</ul>
+    <div class="vl"></div>
+    <div class="semi">
+    </div>
+    <form>
+        <div class="right-side">
+        <br>
+        <div id="text"><h1>Share your Thoughts!</h1></div>
+        <br>
+        <div class="input-box">
+        <input type="text" placeholder="Enter your name">
+        </div>
+        <br>
+        <div class="input-box">
+        <input type="text" placeholder="Enter your email">
+        </div>
+        <br>
+        <div class="input-box message-box">
+        <textarea></textarea>
+        </div>
+        <br>
+        <div class="button">
+        <button>SHARE</button>
+        </div>
+        </form>
+    </div>
+    <br>
+    <div id="connect">
+        <h1>Be Connect With Me..</h1>
+    </div>
+    <br>
+        <div class="social">
+
+            <div id="lin">
+            <a href=" "><img src="C:\Users\guhan\Downloads\5282542_linkedin_network_social network_linkedin logo_icon.svg" id="l" width="40px"></a>
+          </div>
+          <br>
+          <div id="twi">
+            <a href=" "><img src="C:\Users\guhan\Downloads\5282551_tweet_twitter_twitter logo_icon.svg" id="t" width="40px"></a>
+          </div> 
+          <br>
+          <div id="git">
+            <a href=" "><img src="C:\Users\guhan\Downloads\4747499_github_icon.svg" id="g" width="40px"></a>
+          </div>
+          </div>
+    </div>
+    <div class="socialname">
+        <a href=" ">LinkedIn</a>
+        <br>
+        <a href=" ">twitter</a>
+        <br>
+        <a href=" ">GitHub</a>
+        <br>
+    </div>
+
+</body>
+</html>
